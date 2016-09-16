@@ -10,8 +10,8 @@ import logging
 import serial
 from xbee import ZigBee
 
-from core import config
-from core.gateway import Gateway
+from pygate_core import config
+from pygate_core.gateway import Gateway
 
 logger = logging.getLogger('zigbee')
 serial_port = None
